@@ -1,0 +1,174 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com) and Harsh (harsh.gadgil@gmail.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+% Command for printing skill overview bubbles
+\newcommand\skills{ 
+	~
+	\smartdiagram[bubble diagram]{
+		\textbf{Artificial }\\\textbf{Intelligence},
+		\textbf{Deep}\\\textbf{Learning},
+		\textbf{Feature}\\\textbf{Engineering},
+		\textbf{Reinforcement}\\\textbf{Learning},
+		\textbf{Machine}\\\textbf{Learning},
+		\textbf{Data}\\\textbf{~~Analysis~~},
+		\textbf{Statistical}\\\textbf{Analysis}
+	}
+}
+
+% Programming skill bars
+\programmingandlibraries{{OpenCV$\textbullet$ Chainer $\textbullet$ Caffe / 3}, {CNTK$\textbullet$Theano $\textbullet$ Pytorch/ 4.5}, {Python$\textbullet$Tensorflow$\textbullet$Keras$\textbullet$Scikit-learn / 5}}
+
+% Projects text
+\education{
+\textbf{MSc., Computer Science} (GPA: 3.4) \\
+Specialization: Machine Learning \\
+The University of Winnipeg \\
+2014 - 2017 | Winnipeg,Manitoba,Canada
+
+\textbf{BEng.,Electronics\&Communication} (GPA: 3.6) \\
+Karpagam University \\
+2009 - 2012 | TamilNadu, India
+}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\cvname{Arshia Sathya \\ Ulaganathan} % Your name
+\cvjobtitle{ Machine Learning Engineer } % Job
+% title/career
+
+\cvlinkedin{/in/arshiau/}
+\cvgithub{Arshiasathya}
+\cvnumberphone{(204) 990 7543} % Phone number
+\cvmail{arshiasathya@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\makeprofile % Print the sidebar
+
+
+%----------------------------------------------------------------------------------------
+%Interest
+%----------------------------------------------------------------------------------------
+\vspace{-0.2cm}
+\section{Interests}
+\vspace{-0.2cm}
+	{Self motivated, hard working, experienced machine learning engineer. Interested in exploring new dimensions of AI application and solving the real world problems using the cutting edge technology in AI.}
+ \vspace{-0.2cm}
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+ \vspace{-0.2cm}
+\section{Experience}
+ \vspace{-0.2cm}
+\begin{twenty} % Environment for a list with descriptions
+\twentyitem
+    	{\bf April 2018 - }
+		{\bf Present}
+        {\large  Jr.Machine Learning Engineer}
+        {\href{https://laivly.com/}{\bf \large Lavily/24-7 Intouch}}
+        {\textbf{Projects: Email template recommendation engine}}
+        {\begin{itemize}
+       	\vspace{-0.4cm}
+        \item Tool that assists customer care agents to select the proper template for response by analyzing customer emails.
+        \item The goal of project is to reduce the average handling time ticket and improve the customer satisfaction.\\ 
+        \textbf{Conversational AI assistant:}
+        \item Conversational AI assistant helps the customer care agents handle multiple chats efficiently.The purpose of this project is to increase the concurrency of the chat per agent
+        \item Automated generic chat flow with the indication for human assistance when the bot is in need.\\
+        \textbf{Intent and Sentiment classification:}
+        \item Narrow's down the path for template sugesstion for response
+        \item Sentiment of the email or message is used to select the responses, this helps to add proper verbage in the responses.\\
+        \textbf{Voice emotion detection(PoC stage):}
+        \item This project tracks how sentiment varies thorough out the call. 
+        \item Helps team leads find out when and which agent needs help from them to handle critical customer calls.
+        \item \textbf{Langugage and Libraries used:}Python, Jupyter Notebook, Tensorflow, Keras, PyTorch, Scikit-learn, Numpy, Pandas, PyAudioAnalysis, Librosa, Matplotlib, Seaborn, Scipy, Rasa, Flask. 
+        \item \textbf{Algorithms or Models used:}CNN, LSTM, RNN, GRU, Transformer, Encoder Decoder, Capsule Network, Siamese n shot learning.\\
+        \textbf{Software development and DevOps Experiences:}
+        \item Experienced in Agile methodology, Bitbucket as version control.
+        \item Experienced with Amazon web service(aws) Kubernetes, Docker cloud sources
+        \vspace{-0.2cm}
+   	    \end{itemize}}
+        \\
+        \vspace{-0.2cm}
+    \twentyitem
+   		{\bf Jan 2016 -}
+		{\bf Apr 2016}
+        {\large Graduate Teaching Assistant }
+        {\href{https://www.uwinnipeg.ca/}{\bf \large The University of Winnipeg}}
+        {}
+        {
+        {\begin{itemize}
+        \item Created tutorial materials for software project management course
+        \item Marked assignments and exams
+        \item Invigilated exams
+        \vspace{-0.4cm}
+    \end{itemize}}
+        }
+     \\
+     \twentyitem
+   		{\bf May 2015 -}
+		{\bf Apr 2018}
+        {\large Sales Associate}
+        {\href{https://www.homedepot.ca/en/home.html}{\bf \large The Home Depot}}
+        {}
+        {
+        \begin{itemize}
+        	\vspace{-0.2cm}
+        \item Inventory Assessment
+        \item Product Knowledge 
+        \item Assited customers with purchase 
+        \item Point of sale transactions
+    \end{itemize}
+    	}
+        
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+ \vspace{-0.2cm}
+%----------------------------------------------------------------------------------------
+%	 RESEARCH
+%----------------------------------------------------------------------------------------
+\vspace{-0.2cm}
+\section{Research}
+\vspace{-0.1cm}
+\begin{twenty}
+	\twentyitem
+    	{\bf 2015 -}
+    	{\bf 2017}
+        {\large MSc. Candidate, Graduate Research Assistant}
+        {\href{https://www.uwinnipeg.ca/}{\bf \large The University of Winnipeg}}
+        {}
+        {
+       	\textbf{Thesis}: Granular Methods in Automatic Music Genre Classification: A Case Study
+        {\begin{itemize}
+        \item Proposed and implemented \textbf{algorithm }Tolerance Class Learner (TCL)2.0 for classification.
+        \item Worked on feature selection and feature reduction methods for classification
+        \item \textbf{Tools}: R, Python, scikit-learn, pandas, numpy. \vspace{2mm}
+		\end{itemize}}
+        }
+\end{twenty}
+\vspace{-0.6cm}
+\section{Publications}
+\vspace{-0.2cm}
+Ulaganathan, Arshia Sathya, Ramanna, “Granular Methods in Automatic Music Genre Classification: A Case Study” in 2019  Journal of Intelligent Information Systems, pp. 85-105, J. Intell. Inf. Syst., 2019. \vspace{2mm}
+\vspace{-0.6cm}
+\end{document} 
